@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enhanced Location Mapping</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-minimap/dist/Control.MiniMap.min.css" />
+
+  <style>
+    #map {
+      height: 500px;
+      width: 100%;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    input {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Add the location information</h2>
+Name: <input type="text" id="nameinput" placeholder="name" />
+Latitude: <input type="number" id="latitude" placeholder="latitude" />
+Longitude: <input type="number" id="longitute" placeholder="longitude" />
+<button onclick="addlocation()">Add to map</button>
+<button onclick="locateUser()">Locate Me</button>
+
+<div id="map"></div>
+
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+  const map = L.map('map', {
+    zoomControl: false
+  }).setView([20, 0], 2); 
+
+  
+  const mainLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  
+  const customIcon = L.icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png',
+    iconSize: [30, 30],
+    iconAnchor: [15, 30]
+  });
+
+  
+  const markerGroup = L.featureGroup().addTo(map);
+
+  
+  L.control.zoom({
+    position: 'topright'
+  }).addTo(map);
+
+  L.control.scale().addTo(map);
+
+  
+  function addlocation() {
+    const name = document.getElementById('nameinput').value;
+    const lat = parseFloat(document.getElementById('latitude').value);
+    const lon = parseFloat(document.getElementById('longitute').value);
+
+    if (!name || isNaN(lat) || isNaN(lon)) {
+      alert("Please enter a valid name, latitude, and longitude.");
+      return;
+    }
+
+    
+    const marker = L.marker([lat, lon], { icon: customIcon })
+      .bindPopup(`<strong>${name}</strong>`)
+      .addTo(markerGroup)
+      .openPopup();
+
+
+    map.fitBounds(markerGroup.getBounds());
+
+    
+    document.getElementById('nameinput').value = '';
+    document.getElementById('latitude').value = '';
+    document.getElementById('longitute').value = '';
+  }
+
+  
+  function locateUser() {
+    map.locate({ setView: true, maxZoom: 10 });
+  }
+
+  
+  map.on('locationfound', function(e) {
+    L.marker(e.latlng).addTo(markerGroup)
+      .bindPopup("You are here!")
+      .openPopup();
+
+    map.fitBounds(markerGroup.getBounds());
+  });
+
+  
+  map.on('locationerror', function() {
+    alert("Location access denied or unavailable.");
+  });
+</script>
+
+</body>
+</html>
