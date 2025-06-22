@@ -1,0 +1,7 @@
+D:\Hynetic-electronics-assignment\C #\Hello1\bin\Debug\Hello1.exe.config
+D:\Hynetic-electronics-assignment\C #\Hello1\bin\Debug\Hello1.exe
+D:\Hynetic-electronics-assignment\C #\Hello1\bin\Debug\Hello1.pdb
+D:\Hynetic-electronics-assignment\C #\Hello1\obj\Debug\Hello1.csproj.AssemblyReference.cache
+D:\Hynetic-electronics-assignment\C #\Hello1\obj\Debug\Hello1.csproj.CoreCompileInputs.cache
+D:\Hynetic-electronics-assignment\C #\Hello1\obj\Debug\Hello1.exe
+D:\Hynetic-electronics-assignment\C #\Hello1\obj\Debug\Hello1.pdb
