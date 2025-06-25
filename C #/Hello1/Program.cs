@@ -82,19 +82,163 @@ namespace Hello1
 
             //Type Casting using different methods.
 
-            char typ = (char)Convert.ToInt32('r');
-            long typ1 = Convert.ToChar(114);
-            float typ2 = Convert.ToInt32(3.55);
-            double typ3 = Convert.ToInt64(114);
-            int typ4 = 32;
-            string typ5 = typ4.ToString();
-            Console.WriteLine(typ);
-            Console.WriteLine(typ1);
-            Console.WriteLine(typ2);
-            Console.WriteLine(typ3);
-            Console.WriteLine(typ5);
+            //char typ = (char)Convert.ToInt32('r');
+            //long typ1 = Convert.ToChar(114);
+            //float typ2 = Convert.ToInt32(3.55);
+            //double typ3 = Convert.ToInt64(114);
+            //int typ4 = 32;
+            //string typ5 = typ4.ToString();
+            //Console.WriteLine(typ);
+            //Console.WriteLine(typ1);
+            //Console.WriteLine(typ2);
+            //Console.WriteLine(typ3);
+            //Console.WriteLine(typ5);
+
+            // Understanding inputs
+
+            //Console.WriteLine("Enter your name please: ");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Hi my name is " + name); // Concatination
+            //Console.WriteLine("Enter your anything here : ");
+            //string any = Console.ReadLine();
+            //Console.WriteLine("Hi my name is " + name + " You will get 4 extra anyways " + (Convert.ToInt32(any) + 4));
+
+            // Operators in C#
+
+            //1. Arithmetic operators.
+
+            //int a = 5;
+            //int b = 4;
+            //Console.WriteLine("The value of "  + a +  "+"  + b +  " is " + (a + b));
+            //Console.WriteLine("The value of "  + a +  "-"  + b +  " is " + (a - b));
+            //Console.WriteLine("The value of "  + a +  "*"  + b +  " is " + (a * b));
+            //Console.WriteLine("The value of "  + a +  "/"  + b +  " is " + (a / b));
 
 
+            //2. Assignment operators.
+
+            //int a1 = 5;
+            //int b1 = a1;
+            //int c1 = b1;
+            //int d1 = c1;
+            //int e1 = d1;
+            //b1 += 4;
+            //c1 -= 4;
+            //d1 *= 4;
+            //e1 /= 4;
+
+            //Console.WriteLine("The value of addition is " + b1);
+            //Console.WriteLine("The value of subtraction is " + c1);
+            //Console.WriteLine("The value of multiplication is " + d1);
+            //Console.WriteLine("The value of division is " + e1);
+
+
+            //3. Logical operators.
+
+            //Console.WriteLine(true && false);
+            //Console.WriteLine(true && true);
+            //Console.WriteLine(false && false);
+            //Console.WriteLine(true || false);
+            //Console.WriteLine(true || true);
+            //Console.WriteLine(false || false);
+            //Console.WriteLine(!false);
+            //Console.WriteLine(!true);
+
+
+            //4. Comparision operators.
+
+            //int a = 5;
+            //int b = 10;
+            //Console.WriteLine(a > b);
+            //Console.WriteLine(a >= b);
+            //Console.WriteLine(a < b);
+            //Console.WriteLine(a <= b);
+            //Console.WriteLine(a != b);
+            //Console.WriteLine(a == b);
+
+            //5. Bitwise operators
+
+            //1. AND 
+
+            //int a = 5;  
+            //int b = 3;  
+
+            //int result = a & b;  
+
+            //Console.WriteLine(result);
+
+            //2. OR
+
+            //int a1 = 6;
+            //int b1 = 7;
+
+            //int result1 = a1 | b1;
+            //Console.WriteLine(result1);
+
+            //3. XOR
+
+            //int a2 = 5;
+            //int b2 = 6;
+
+            //int result2 = a2 ^ b2;
+            //Console.WriteLine(result2);
+
+            //4. NOT
+
+            //int a3 = 5;
+            //int result3 = ~a3;
+
+            //Console.WriteLine(result3);
+
+            //5. Left Shift
+
+            //int a4 = 7;
+
+            //Console.WriteLine(a4 << 1);
+
+            //6. Right Shift
+
+            //int a5 = 8;
+
+            //Console.WriteLine(a5 >> 1);
+
+            // Using Math in C#
+
+            //int a = Math.Max(34, 35);
+            //double b = Math.Sqrt(36);
+            //int c = Math.Abs(-35);
+            //Console.WriteLine(a);
+            //Console.WriteLine(b);
+            //Console.WriteLine(c);
+
+            //String methods
+
+            //string name = "CristianoRonaldo";
+            //Console.WriteLine(name.Length);
+            //Console.WriteLine(name.ToUpper());
+            //Console.WriteLine(name.ToLower());
+            //Console.WriteLine("Hi my name is " + name); // Concatination
+            //Console.WriteLine(string.Concat("Hi my name is", name));
+
+            //String formatting
+
+            //string name = Console.ReadLine();
+            //string role = Console.ReadLine();
+            //Console.WriteLine($"Hi my name is {name} and my role is {role}");
+
+            // Indexing
+
+            //string hello = "Hi this is my youtube channel";
+            //Console.WriteLine(hello[1]);
+            //Console.WriteLine(hello.IndexOf("this"));
+            //Console.WriteLine(hello.Substring(5));
+
+            // Escape sequence
+
+            string hello = "Hi this is my \" youtube channel";
+            //string hello = "Hi this is my \n youtube channel";
+            //string hello = "Hi this is my \t youtube channel";
+            Console.WriteLine(hello);
 
             Console.ReadLine();
         }
