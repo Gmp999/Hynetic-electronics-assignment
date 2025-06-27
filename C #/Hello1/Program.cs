@@ -235,12 +235,77 @@ namespace Hello1
 
             // Escape sequence
 
-            string hello = "Hi this is my \" youtube channel";
+            //string hello = "Hi this is my \" youtube channel";
             //string hello = "Hi this is my \n youtube channel";
             //string hello = "Hi this is my \t youtube channel";
-            Console.WriteLine(hello);
+            //Console.WriteLine(hello);
 
-            Console.ReadLine();
+            // Conditional statements
+
+            //Console.WriteLine("Enter your name here buddy");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Enter you age here buddy");
+            //string agestr = Console.ReadLine();
+            //int age = Convert.ToInt32(agestr);
+
+            //if (age > 18 | age == 18) {
+            //    Console.WriteLine("You can vote");
+            //}
+            //else if (age < 18)
+            //{
+            //    Console.WriteLine("You cannot vote");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input");
+            //}
+
+            //switch (age)
+            //{
+            //    case 18:
+            //        Console.WriteLine("You are eligible to vote");
+            //        break;
+            //    case 20:
+            //        Console.WriteLine("You are 20 years old now");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Dont forget to vote guys.");
+            //        break;
+            //}
+
+
+            // LOOPS in C#
+
+            //While loops
+
+            //int i = 0;
+            //while(i<10)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
+
+            // Do while
+
+            //do
+            //{
+            //    Console.WriteLine(i); // wether the condition is true or false it will run atleast once.
+            //    i++;
+            //} while (i > 5);
+
+            //For loops with break and continue
+            for (int i=1 ; i < 5 ; i++)
+            {
+                if (i == 0)
+                {
+                    continue; // Go to the next iteration
+                }
+                Console.WriteLine(i);
+                break; // Exit the loop
+            }
+
+
+                Console.ReadLine();
         }
     }
 }
