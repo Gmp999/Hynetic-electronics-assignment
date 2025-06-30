@@ -324,6 +324,12 @@ namespace Hello1
             Greet("Umesh");
             Console.WriteLine(Inticheck(5,9));
             Console.WriteLine(Inticheck(7, 6, 7)); // method overloading (same function name different parameters)
+
+            // OOPs - Classes and objects
+            Player tommy = new Player();
+            Console.WriteLine(tommy.gethealth()); // encapsulation
+            tommy.sethealth(59);
+            Console.WriteLine(tommy.gethealth());
             Console.ReadLine();
             
           
