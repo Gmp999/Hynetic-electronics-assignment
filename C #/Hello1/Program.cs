@@ -8,6 +8,20 @@ namespace Hello1
 {
     class Program
     {
+        //Methods
+        static void Greet(string name)
+        {
+            Console.WriteLine("Good morning" +  name);
+        }
+        // Method overloading
+        static int Inticheck(int a, int b) {
+            return a + b;
+        }
+        static int Inticheck(int a, int b, int c)
+        {
+            return a + b + c;
+        }
+
         static void Main(string[] args)
         {
 
@@ -160,10 +174,10 @@ namespace Hello1
 
             //1. AND 
 
-            //int a = 5;  
-            //int b = 3;  
+            //int a = 5;
+            //int b = 3;
 
-            //int result = a & b;  
+            //int result = a & b;
 
             //Console.WriteLine(result);
 
@@ -294,18 +308,25 @@ namespace Hello1
             //} while (i > 5);
 
             //For loops with break and continue
-            for (int i=1 ; i < 5 ; i++)
-            {
-                if (i == 0)
-                {
-                    continue; // Go to the next iteration
-                }
-                Console.WriteLine(i);
-                break; // Exit the loop
-            }
+            //for (int i=1 ; i < 5 ; i++)
+            //{
+            //    if (i == 0)
+            //    {
+            //continue; // Go to the next iteration
+            //}
+            //Console.WriteLine(i);
+            //break; // Exit the loop
+            //}
 
+            //Greet(); =  Methods
 
-                Console.ReadLine();
+            Greet("Goutham");
+            Greet("Umesh");
+            Console.WriteLine(Inticheck(5,9));
+            Console.WriteLine(Inticheck(7, 6, 7)); // method overloading (same function name different parameters)
+            Console.ReadLine();
+            
+          
         }
     }
 }
