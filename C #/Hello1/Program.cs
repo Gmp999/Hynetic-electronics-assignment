@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Hello1
 {
@@ -320,19 +321,84 @@ namespace Hello1
 
             //Greet(); =  Methods
 
-            Greet("Goutham");
-            Greet("Umesh");
-            Console.WriteLine(Inticheck(5,9));
-            Console.WriteLine(Inticheck(7, 6, 7)); // method overloading (same function name different parameters)
+            //Greet("Goutham");
+            //Greet("Umesh");
+            //Console.WriteLine(Inticheck(5,9));
+            //Console.WriteLine(Inticheck(7, 6, 7)); // method overloading (same function name different parameters)
 
             // OOPs - Classes and objects
-            Player tommy = new Player();
-            Console.WriteLine(tommy.gethealth()); // encapsulation
-            tommy.sethealth(59);
-            Console.WriteLine(tommy.gethealth());
-            Console.ReadLine();
-            
-          
+            //Player tommy = new Player();
+            //Console.WriteLine(tommy.gethealth()); // encapsulation
+            //tommy.sethealth(59);
+            //Console.WriteLine(tommy.gethealth());
+
+
+            // FILE INPUT AND OUTPUT
+
+            // Creating a file and check its existance.
+
+            //string inpfile = @"D:\Hynetic-electronics-assignment\C #\Hello1\gmp.txt";
+            //File.Create(inpfile);
+            //if (File.Exists(inpfile))
+            //{
+            //    Console.WriteLine("File has created successfully!");
+            //}
+
+            // Creating the directory
+
+            //string inpfolder = @"D:\Hynetic-electronics-assignment\C #\Hello1\gmp";
+            //Directory.CreateDirectory(inpfolder);
+            //if (Directory.Exists(inpfolder))
+            //{
+            //    Console.WriteLine("Folder has created successfully!");
+            //}
+
+            // Writing single line and multiple lines
+
+            //string inputfile = @"D:\Hynetic-electronics-assignment\C #\Hello1\gmp.txt";
+            //if (File.Exists(inputfile))
+            //{
+            //File.WriteAllText(inputfile, "Hi my name is Goutham mp"); // single line
+            //    string[] mullines = new string[]
+            //    {
+            //        "Hi this is your boi",
+            //    "Welcome to this file",
+            //    "How are you now"
+            //    };
+            //    File.WriteAllLines(inputfile, mullines); // Multiple lines
+
+            //};
+
+            // Reading single and multiple lines
+            //string inputfile = @"D:\Hynetic-electronics-assignment\C #\Hello1\gmp.txt";
+            //if (File.Exists(inputfile))
+            //{
+            //    string[] lines = File.ReadAllLines(inputfile);// multiple lines reading /for single line use ReadAllText
+            //    foreach(var line in lines)
+            //    {
+            //        Console.WriteLine(line);
+            //    }
+
+
+            //}
+
+            // Names of all directory and working with its properties
+
+            //string inputfile = @"D:\Hynetic-electronics-assignment\C #\Hello1\gmp.txt";
+            //string[] allfiles = Directory.GetFiles(inputfile);
+            //foreach(var file in allfiles){
+            //    Console.WriteLine(file);
+
+            //}
+            //FileInfo f1 = new FileInfo(inputfile);
+            //Console.WriteLine(f1.FullName);
+            //Console.WriteLine(f1.DirectoryName);
+            //Console.WriteLine(f1.Name);
+            //Console.WriteLine(f1.Extension);
+            //Console.WriteLine(f1.Length+"bytes");
+            //Console.ReadLine();
+
+
         }
     }
 }
