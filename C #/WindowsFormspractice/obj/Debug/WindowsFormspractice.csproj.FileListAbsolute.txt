@@ -1,0 +1,12 @@
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\bin\Debug\WindowsFormspractice.exe.config
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\bin\Debug\WindowsFormspractice.exe
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\bin\Debug\WindowsFormspractice.pdb
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\obj\Debug\WindowsFormspractice.csproj.AssemblyReference.cache
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\obj\Debug\WindowsFormspractice.Properties.Resources.resources
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\obj\Debug\WindowsFormspractice.csproj.GenerateResource.cache
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\obj\Debug\WindowsFormspractice.csproj.CoreCompileInputs.cache
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\obj\Debug\WindowsFormspractice.exe
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\obj\Debug\WindowsFormspractice.pdb
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\obj\Debug\WindowsFormspractice.exe.config
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\obj\Debug\WindowsFormspractice.LoginForm.resources
+D:\Hynetic-electronics-assignment\C #\WindowsFormspractice\obj\Debug\WindowsFormspractice.Winform2.resources
