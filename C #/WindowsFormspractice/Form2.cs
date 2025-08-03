@@ -21,5 +21,25 @@ namespace WindowsFormspractice
         {
             resultlbl.Text = "Hello " + nametxt.Text;
         }
+
+        private void Winform2_Load(object sender, EventArgs e)
+        {
+            CountryExample.Items.Add("New Zeland");
+            CountryExample.SelectionMode = SelectionMode.MultiSimple;
+            CountryExample.SelectedIndex = 4;
+            resultlbl.Text = CountryExample.SelectedItem.ToString();
+
+        }
+
+        private void Languagecombo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            resultlbl.Text = Languagecombo.SelectedItem.ToString();
+            
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
