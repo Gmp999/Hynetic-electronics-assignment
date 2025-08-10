@@ -143,5 +143,30 @@ namespace WindowsFormspractice
             //    MessageBox.Show("The text is not written");
             //}
         }
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("New button clicked");
+        }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Open button clicked");
+        }
+
+        private void addToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Add button clicked");
+        }
+
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Close button clicked");
+        }
+
+        private void codeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Code button clicked");
+        }
     }
 }

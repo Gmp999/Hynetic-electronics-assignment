@@ -1,0 +1,11 @@
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\bin\Debug\SimpleChatApp.exe.config
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\bin\Debug\SimpleChatApp.exe
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\bin\Debug\SimpleChatApp.pdb
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\obj\Debug\SimpleChatApp.csproj.AssemblyReference.cache
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\obj\Debug\SimpleChatApp.Form1.resources
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\obj\Debug\SimpleChatApp.Properties.Resources.resources
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\obj\Debug\SimpleChatApp.csproj.GenerateResource.cache
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\obj\Debug\SimpleChatApp.csproj.CoreCompileInputs.cache
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\obj\Debug\SimpleChatApp.exe
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\obj\Debug\SimpleChatApp.pdb
+D:\Hynetic-electronics-assignment\C #\SimpleChatApp\obj\Debug\SimpleChatApp.exe.config
