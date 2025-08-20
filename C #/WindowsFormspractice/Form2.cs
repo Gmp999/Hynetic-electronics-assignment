@@ -168,5 +168,12 @@ namespace WindowsFormspractice
         {
             MessageBox.Show("Code button clicked");
         }
+
+        private void form1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoginForm form1 = new LoginForm();
+            form1.MdiParent = this;
+            form1.Show();
+        }
     }
 }
